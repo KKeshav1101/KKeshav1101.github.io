@@ -1,0 +1,237 @@
+/* Add styles here */
+body {
+    padding-top: 80px;
+    font-family: "Montserrat", sans-serif;
+    margin:0px;
+    padding:0px;
+}
+
+.portfolio-container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.portfolio-intro {
+    margin-bottom: 20px;
+}
+
+.portfolio-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.portfolio-item {
+    background-color: #181e1f;
+    border-radius: 5%;
+    padding: 15px;
+    text-align: center;
+    width: 256px;
+    box-sizing: border-box;
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    height: 256px;
+    border-radius: 5%;
+}
+
+.portfolio-item p {
+    margin-top: 10px;
+    color: white;
+}
+
+.portfolio-item a {
+    color: deepskyblue;
+    text-decoration: none;
+}
+
+.portfolio-item a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    text-align: justify;
+    color: aliceblue;
+}
+
+#home-page {
+    padding-top: 20px;
+    /* Additional padding to ensure no overlap */
+}
+
+.col img {
+    transform: translateX(90px) translateY(16px);
+}
+
+.navbar-brand {
+    color: rgb(0, 162, 255);
+}
+
+.navbar-nav .nav-item {
+    margin-left: 20px;
+    /* Ensure even spacing between nav items */
+}
+
+#b1 {
+    display: inline-block;
+    border: 2px solid deepskyblue;
+    color: deepskyblue;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.row {
+    margin-bottom: 0px;
+    margin-right:0px;
+}
+
+.col {
+    padding: 20px;
+    /* Ensure consistent padding within columns */
+}
+
+.stack-frame{
+    display : flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    gap:10px;
+    padding:20px;
+}
+
+.stack-item{
+    background-color: #00bff0;
+    border-radius: 15%;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    width: 128px;
+}
+
+.stack-item:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+.stack-item img{
+    border-radius: 50%;
+}
+
+.services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    /* Adjust gap as needed */
+    padding: 20px;
+}
+
+.contact-frame{
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+    background-color: #00bff0;
+    text-align: center;
+}
+.contact{
+    max-width:28px;
+    max-height:28px;
+    border-radius: 2%;
+    margin: 10px;
+}
+.contact:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+.service {
+    background-color: #00bff0;
+    border-radius: 15%;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+    height: 250px;
+    color: white;
+    max-width: 200px;
+    /* Adjust width as needed */
+}
+
+.service:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+.service img {
+    border-radius: 50%;
+}
+
+.service p {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: deepskyblue;
+}
+
+.service span {
+    display: block;
+    margin-top: 10px;
+    color: deepskyblue;
+}
+
+a#brand {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+a#brand:hover {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+a#b1:hover {
+    background-color: aliceblue;
+    color: #15181A;
+    text-decoration: none !important;
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a:hover {
+    color: rgb(0, 170, 255) !important;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+
+#home-page {
+    color: aliceblue !important;
+    background-color: rgb(33, 37, 41);
+    width: 100%;
+    height: 650px;
+    margin: 0px;
+    padding: 20px;
+    display: flex;
+}
+
+.odd-page {
+    color: aliceblue !important;
+    background-color: rgb(33, 37, 41);
+    width: 100%;
+    height: 700px;
+    padding-top: 20px;
+    padding-bottom:20px;
+}
+
+.even-page {
+    color: aliceblue;
+    background-color: rgb(23, 26, 29);
+    width: 100%;
+    height: 700px;
+    margin: 0px;
+    padding: 20px;
+}
