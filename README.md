@@ -1,1 +1,1 @@
-Clone repo and open index.html to see my portfolio website!
+view in laptop for proper experience :)
